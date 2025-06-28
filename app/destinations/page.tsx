@@ -26,7 +26,7 @@ export default function DestinationsPage() {
                 href={`/destinations/${dest.slug}`}
                 className="text-emerald-600 font-medium mt-2 block"
               >
-                Learn more
+                Get More Info
               </Link>
             </div>
           </div>

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function WhatsAppFloat() {
   const [isVisible, setIsVisible] = useState(false);
-  const phoneNumber = "917051632080"; // Your number without + or 0
+  const phoneNumber = "919858345123"; // Your number without + or 0
 
   // Dynamic greeting based on time
   const getGreeting = () => {

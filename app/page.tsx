@@ -6,6 +6,43 @@ import { destinations } from "../destinations";
 export default function HomePage() {
   return (
     <main className="bg-gray-50">
+      <head>
+        <title>
+          Seven Lakes Trail Adventure | Best Kashmir Trekking & Family
+          Expeditions
+        </title>
+        <meta
+          name="description"
+          content="Experience Kashmir's hidden gems with expert-guided treks to Sonamarg, Gangbal Lake & more. Family-friendly adventures, winter treks, and luxury camping in the Himalayas."
+        />
+        <meta
+          name="keywords"
+          content="Kashmir trekking, family adventures in Kashmir, Sonamarg trek, Gangbal Lake, winter expeditions, guided hikes, Himalayan camping"
+        />
+
+        <meta
+          property="og:title"
+          content="Seven Lakes Trail Adventure | Kashmir's Premier Trekking Company"
+        />
+        <meta
+          property="og:description"
+          content="Join us for unforgettable treks to Kashmir's alpine lakes, glaciers, and meadows. Safe, eco-friendly, and tailored for families/adventurers."
+        />
+        <meta property="og:image" content="images/logo.webp" />
+        <meta property="og:url" content="https://sevenlakestrail.com" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Seven Lakes Trail Adventure | Best Treks in Kashmir"
+        />
+        <meta
+          name="twitter:description"
+          content="Expert-led expeditions to Kashmir's Great Lakes, Tarsar Marsar, and winter treks. Book your Himalayan adventure today!"
+        />
+        <meta name="twitter:image" content="images/logo.webp" />
+      </head>
       <section className="hero bg-emerald-600 text-white py-16 text-center">
         <h2 className="text-4xl font-extrabold mb-4">
           Explore Heaven On Earth With Us
@@ -44,7 +81,7 @@ export default function HomePage() {
                       href={`/destinations/${dest.slug}`}
                       className="text-emerald-600 font-semibold hover:underline"
                     >
-                      See more
+                      Get More Info
                     </Link>
                   </div>
                 </div>
