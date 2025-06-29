@@ -44,5 +44,4 @@ logs/
 # Optional: public/images/ placeholder (keep readme but ignore images)
 public/images/*
 
-/destinations.ts
 .vercel
