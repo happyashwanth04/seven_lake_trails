@@ -42,6 +42,6 @@ logs/
 *.sln
 
 # Optional: public/images/ placeholder (keep readme but ignore images)
-public/images/*
+# public/images/*
 
 .vercel
